@@ -4,10 +4,104 @@
              x:Class="SnowBall.Page1">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Frame x:Name="Шапка."
+                BackgroundColor="Black"
+                   CornerRadius="10"
+                   BorderColor="Black"
+                   Margin="170,50"
+                   Padding="30">
+            </Frame>
+            <Frame x:Name="Шапка.."
+                BackgroundColor="Black"
+                   BorderColor="Black"
+                   Margin="140,-60"
+                   Padding="10"
+                   CornerRadius="20">
+                <Label Text="Шапка"
+                       TextColor="White"
+                       FontSize="Body"
+                       HorizontalTextAlignment="Center">
+                </Label>
+            </Frame>
+            <Frame x:Name="Голова." 
+               BorderColor="Black"
+                   CornerRadius="90"
+                   Margin="130,53"
+                   Padding="30"
+                   >
+                <Label Text="Голова"
+                       TextColor="Black"
+                       FontSize="Small"
+                       HorizontalOptions="Center">
+                </Label>
+            </Frame>
+            <Frame x:Name="Тело." 
+                   BorderColor="Black"
+                   CornerRadius="100"
+                   Margin="110,-60"
+                   Padding="55">
+                <Label Text="Тело"
+                       TextColor="Black"
+                       FontSize="Small"
+                       HorizontalOptions="Center">
+                </Label>
+            </Frame>
+            <Frame x:Name="Основа." 
+                BorderColor="Black"
+                   CornerRadius="90"
+                   Margin="90,54"
+                   Padding="70">
+                <Label Text="Основа"
+                       TextColor="Black"
+                       FontSize="Small"
+                       HorizontalOptions="Center">
+                </Label>
+            </Frame>
+            <StackLayout HorizontalOptions="Start" Orientation="Horizontal">
+                <Button
+                    FontSize="Small"
+                        Margin="0,40"
+                        Padding="-10"
+                    x:Name="Спрятать снеговика."
+                    BackgroundColor="Gray"
+                    Text="Спрятать"
+                    TextColor="White">
+                </Button>
+                <Button FontSize="Small"
+                        Margin="0,40"
+                        Padding="-10"
+                    x:Name="Отобразить снеговика"
+                    BackgroundColor="Gray"
+                    Text="отобразить"
+                    TextColor="White">
+                </Button>
+                <Button FontSize="Small"
+                        Margin="0,40"
+                        Padding="-10"
+                    x:Name="Рандом."
+                    BackgroundColor="Gray"
+                    Text="Рандом"
+                    TextColor="White">
+                </Button>
+                <Button  FontSize="Small"
+                        Margin="0,40"
+                        Padding="10"
+                    x:Name="Растопить."
+                    BackgroundColor="Gray"
+                    Text="Растопить"
+                    TextColor="White">
+                </Button>
+            </StackLayout>
+            <StackLayout HorizontalOptions="Center" Orientation="Horizontal">
+                <Button  FontSize="Small"
+                        Margin=""
+                        Padding=""
+                    x:Name="Повернуть шляпу."
+                    BackgroundColor="Gray"
+                    Text="Повернуть шляпу"
+                    TextColor="White">
+                </Button>
+            </StackLayout>
         </StackLayout>
-        
     </ContentPage.Content>
 </ContentPage>

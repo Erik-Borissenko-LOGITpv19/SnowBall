@@ -16,5 +16,10 @@ namespace SnowBall
         {
             InitializeComponent();
         }
+
+        private void Frame_SizeChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
