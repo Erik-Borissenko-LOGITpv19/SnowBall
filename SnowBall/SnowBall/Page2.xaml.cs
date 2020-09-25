@@ -46,6 +46,7 @@ namespace SnowBall
             AbsoluteLayout.SetLayoutFlags(anber2, AbsoluteLayoutFlags.PositionProportional);
             abs.Children.Add(anber2);
 
+
             Content = abs;
         }
     }
