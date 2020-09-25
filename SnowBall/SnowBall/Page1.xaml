@@ -70,7 +70,7 @@
                 <Button FontSize="Small"
                         Margin="0,40"
                         Padding="-10"
-                    x:Name="Отобразить снеговика"
+                    x:Name="Head10"
                     BackgroundColor="Gray"
                     Text="отобразить"
                     TextColor="White">
@@ -94,8 +94,8 @@
             </StackLayout>
             <StackLayout HorizontalOptions="Center" Orientation="Horizontal">
                 <Button  FontSize="Small"
-                        Margin=""
-                        Padding=""
+                        Margin="2"
+                        Padding="2"
                     x:Name="Head9"
                     BackgroundColor="Gray"
                     Text="Повернуть шляпу"
