@@ -24,18 +24,20 @@
                 </Label>
             </Frame>
             <Frame x:Name="Head2" 
-               BorderColor="Black"
+               BackgroundColor="LightSteelBlue"
+                   BorderColor="Black"
                    CornerRadius="90"
                    Margin="130,53"
                    Padding="30"
                    >
-                <Label Text="Head3"
+                <Label Text="Голова"
                        TextColor="Black"
                        FontSize="Small"
                        HorizontalOptions="Center">
                 </Label>
             </Frame>
-            <Frame x:Name="Head4" 
+            <Frame BackgroundColor="LightSteelBlue"
+                   x:Name="Head4" 
                    BorderColor="Black"
                    CornerRadius="100"
                    Margin="110,-60"
@@ -46,8 +48,9 @@
                        HorizontalOptions="Center">
                 </Label>
             </Frame>
-            <Frame x:Name="Head5" 
-                BorderColor="Black"
+            <Frame BackgroundColor="LightSteelBlue" 
+                   x:Name="Head5" 
+                   BorderColor="Black"
                    CornerRadius="90"
                    Margin="90,54"
                    Padding="70">
@@ -58,47 +61,51 @@
                 </Label>
             </Frame>
             <StackLayout HorizontalOptions="Start" Orientation="Horizontal">
-                <Button
+                <Button x:Name="Hide"
+                        Clicked="Hide_Clicked"
                     FontSize="Small"
                         Margin="0,40"
                         Padding="-10"
-                    x:Name="Head6"
-                    BackgroundColor="Gray"
-                    Text="Спрятать"
+                    BackgroundColor="Green"
+                    Text="Спрячь"
                     TextColor="White">
                 </Button>
-                <Button FontSize="Small"
+                <Button x:Name="Show"
+                        Clicked="Show_Clicked"
+                    FontSize="Small"
                         Margin="0,40"
                         Padding="-10"
-                    x:Name="Head10"
-                    BackgroundColor="Gray"
-                    Text="отобразить"
+                    BackgroundColor="Gold"
+                    Text="Показать"
                     TextColor="White">
                 </Button>
-                <Button FontSize="Small"
+                <Button x:Name="Random"
+                       Clicked="Random_Clicked"
+                    FontSize="Small"
                         Margin="0,40"
                         Padding="-10"
-                    x:Name="Head7"
-                    BackgroundColor="Gray"
+                    BackgroundColor="Purple"
                     Text="Рандом"
                     TextColor="White">
                 </Button>
-                <Button  FontSize="Small"
-                        Margin="0,40"
+                <Button x:Name="Melt"
+                    Clicked="Melt_Clicked"
+                    FontSize="Small"
+                        Margin="5,40"
                         Padding="10"
-                    x:Name="Head8"
-                    BackgroundColor="Gray"
-                    Text="Растопить"
+                    BackgroundColor="Firebrick"
+                    Text="Растопи"
                     TextColor="White">
                 </Button>
             </StackLayout>
             <StackLayout HorizontalOptions="Center" Orientation="Horizontal">
-                <Button  FontSize="Small"
-                        Margin="2"
-                        Padding="2"
-                    x:Name="Head9"
-                    BackgroundColor="Gray"
-                    Text="Повернуть шляпу"
+                <Button x:Name="RotateHat"
+                        Clicked="RotateHat_Clicked"
+                    FontSize="Small"
+                        Margin="0.50"
+                        Padding="10"
+                    BackgroundColor="Coral"
+                    Text="Уронить"
                     TextColor="White">
                 </Button>
             </StackLayout>
