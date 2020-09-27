@@ -76,7 +76,7 @@
                         Margin="0,40"
                         Padding="-10"
                     BackgroundColor="Gold"
-                    Text="Показать"
+                    Text="Покажи"
                     TextColor="White">
                 </Button>
                 <Button x:Name="Random"
